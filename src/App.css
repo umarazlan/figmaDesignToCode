@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+@theme {
+  /* =========================
+     Brand Accent (Neon Lime)
+     ========================= */
+
+  --color-primary-50: #F8FFD6;
+  --color-primary-100: #F2FFB5;
+  --color-primary-200: #ECFF8A;
+  --color-primary-300: #E6FF5F;
+  --color-primary-400: #E1FF3B;
+  --color-primary-500: #E5FF1F;
+  --color-primary-600: #C9E516;
+  --color-primary-700: #A8C20F;
+  --color-primary-800: #859A0C;
+  --color-primary-900: #5C6B09;
+
+  /* =========================
+     Backgrounds
+     ========================= */
+
+  --color-background: #050505;
+  --color-background-secondary: #0A0A0A;
+  --color-background-card: #111111;
+  --color-background-glass: rgba(255,255,255,0.04);
+
+  /* =========================
+     Surface
+     ========================= */
+
+  --color-surface: #161616;
+  --color-surface-hover: #1D1D1D;
+
+  /* =========================
+     Borders
+     ========================= */
+
+  --color-border: #262626;
+  --color-border-light: #333333;
+
+  /* =========================
+     Typography
+     ========================= */
+
+  --color-text: #FFFFFF;
+  --color-text-secondary: #D6D6D6;
+  --color-text-muted: #9A9A9A;
+  --color-text-disabled: #666666;
+
+  /* =========================
+     Accent
+     ========================= */
+
+  --color-accent: #E5FF1F;
+  --color-accent-hover: #D7F014;
+
+  /* =========================
+     Status
+     ========================= */
+
+  --color-success: #35D07F;
+  --color-warning: #FFC94D;
+  --color-danger: #FF5F5F;
+}
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
